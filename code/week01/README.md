@@ -13,9 +13,6 @@ I was able to run the plutus playground on my linux machine, then recently it fa
 
 ## Q&A
 - PBA is not necessary, it's convinent to use it to build the transaction, we can use plutus api/cardano-cli talk to cardano node too.
-
 - Transaction needs to be validated by the node, on-chain code encodes some criteria that needed by a validator. The off-chain code can be anywhere like a cloud server, a browser application, or PBA etc., the main functionality of off-chain code is query/create/submit transactions on the blockchain.
-
 - Wrtiting on-chain and off-chain code with the same language Haskell.
-
 - Playground is not just a learning toy, we can use it to fast testing our contracts, but with some restrictions (e.g. no staking ability.).
